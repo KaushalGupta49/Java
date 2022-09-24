@@ -1,0 +1,266 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Firstclass",
+            "request": "launch",
+            "mainClass": "Firstclass",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch GreatestCommonDivisor",
+            "request": "launch",
+            "mainClass": "GreatestCommonDivisor",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Stringsletterchanging",
+            "request": "launch",
+            "mainClass": "Stringsletterchanging",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrayfindindex",
+            "request": "launch",
+            "mainClass": "arrayfindindex",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrayfindnumber",
+            "request": "launch",
+            "mainClass": "arrayfindnumber",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch arraynames",
+            "request": "launch",
+            "mainClass": "arraynames",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch averagenumber",
+            "request": "launch",
+            "mainClass": "averagenumber",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch butterfly",
+            "request": "launch",
+            "mainClass": "butterfly",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch calculator",
+            "request": "launch",
+            "mainClass": "calculator",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch diamondpattern",
+            "request": "launch",
+            "mainClass": "diamondpattern",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch flyodstriangle",
+            "request": "launch",
+            "mainClass": "flyodstriangle",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch function",
+            "request": "launch",
+            "mainClass": "function",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch greaternumber",
+            "request": "launch",
+            "mainClass": "greaternumber",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch halfpyramid",
+            "request": "launch",
+            "mainClass": "halfpyramid",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch halfpyramidwithnumbers",
+            "request": "launch",
+            "mainClass": "halfpyramidwithnumbers",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch hollowrectangle",
+            "request": "launch",
+            "mainClass": "hollowrectangle",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch infiniteloop",
+            "request": "launch",
+            "mainClass": "infiniteloop",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch invertedhalfpyramid",
+            "request": "launch",
+            "mainClass": "invertedhalfpyramid",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch invertedhalfpyramid180",
+            "request": "launch",
+            "mainClass": "invertedhalfpyramid180",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch invertedhalfpyramidwithnumbers",
+            "request": "launch",
+            "mainClass": "invertedhalfpyramidwithnumbers",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch loop",
+            "request": "launch",
+            "mainClass": "loop",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch numberpyramid",
+            "request": "launch",
+            "mainClass": "numberpyramid",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch palidromicpattern",
+            "request": "launch",
+            "mainClass": "palidromicpattern",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch powerfunction",
+            "request": "launch",
+            "mainClass": "powerfunction",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch radius",
+            "request": "launch",
+            "mainClass": "radius",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch recurfactorial",
+            "request": "launch",
+            "mainClass": "recurfactorial",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch recurfibonacci",
+            "request": "launch",
+            "mainClass": "recurfibonacci",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch solidrectangle",
+            "request": "launch",
+            "mainClass": "solidrectangle",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch solidrhombus",
+            "request": "launch",
+            "mainClass": "solidrhombus",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumnaturalnumber",
+            "request": "launch",
+            "mainClass": "sumnaturalnumber",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumofoddnatiralnumber",
+            "request": "launch",
+            "mainClass": "sumofoddnatiralnumber",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch switchmonth",
+            "request": "launch",
+            "mainClass": "switchmonth",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch triangle01",
+            "request": "launch",
+            "mainClass": "triangle01",
+            "projectName": "Java_b8a1897c"
+        },
+        {
+            "type": "java",
+            "name": "Launch xtothepowern",
+            "request": "launch",
+            "mainClass": "xtothepowern",
+            "projectName": "Java_b8a1897c"
+        }
+    ]
+}
