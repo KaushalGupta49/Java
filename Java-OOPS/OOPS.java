@@ -1,53 +1,32 @@
-
-class Student{
-    String Name;
-    int Age;
-
-    public void printInfo(){
-        System.out.println(this.Name);
-        System.out.println(this.Age);
-    }
-
-    Student(){
-        System.out.println("\nfor s1");
-    }    
-
+class Shape{
+    String color;
 }
+
+
+class Triangle extends Shape{
+    public void color(){
+        System.out.println("Color of the shape : "+ color);
+    }
+    public void area(int l, int h){
+        System.out.println((l*h)/2);
+    }
+}
+
+
+class EquilateralTriangle extends Triangle{
+
+    public void area(int l, int h){
+        System.out.println("EqTriangle");
+        System.out.println("abcd");
+    }
+}
+
 
 public class OOPS{
     public static void main(String[] args) {
-        Student s1 = new Student();
-        s1.Name = "Kaushal";
-        s1.Age = 20;
-        s1.printInfo();
-
-        Student s2 = new Student();
-        s2.Name = "Kaushiii";
-        s2.Age = 200;
-        s2.printInfo();
-
-        Student s3 = new Student();
-        s3.Name = "Muskan";
-        s3.Age = 12;
-        s3.printInfo();
-
+        Triangle t1 = new EquilateralTriangle();
+        t1.color ="Red";
+        t1.color();
+        t1.area(10,10);
     }
 }
-
-
-
-
-
- 
-// class Pen{
-//     String Color;
-//     String Type;
-
-//     public void write(){
-//         System.out.println("Writing.....");
-//     }
-
-//     public void printColor(){
-//         System.out.println(this.Color);
-//     }
-// }
