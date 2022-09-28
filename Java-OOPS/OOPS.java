@@ -1,12 +1,13 @@
 class Shape{
     String color;
+    
+    public void color(){
+        System.out.println("Color of the shape : "+ color);
+    }
 }
 
 
 class Triangle extends Shape{
-    public void color(){
-        System.out.println("Color of the shape : "+ color);
-    }
     public void area(int l, int h){
         System.out.println((l*h)/2);
     }
