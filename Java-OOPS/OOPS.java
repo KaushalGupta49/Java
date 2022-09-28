@@ -9,25 +9,26 @@ class Shape{
 
 class Triangle extends Shape{
     public void area(int l, int h){
+        System.out.println("Area of Triangle");
         System.out.println((l*h)/2);
     }
 }
 
 
-class EquilateralTriangle extends Triangle{
+class Rectangle extends Shape{
 
-    public void area(int l, int h){
-        System.out.println("EqTriangle");
-        System.out.println("abcd");
+    public void area(int l, int b){
+        System.out.println("Area of Rectangle");
+        System.out.println(l*b);
     }
 }
 
 
 public class OOPS{
     public static void main(String[] args) {
-        Triangle t1 = new EquilateralTriangle();
-        t1.color ="Red";
-        t1.color();
-        t1.area(10,10);
+        Rectangle r1 = new Rectangle();
+        r1.color ="Red";
+        r1.color();
+        r1.area(10,10);
     }
 }
